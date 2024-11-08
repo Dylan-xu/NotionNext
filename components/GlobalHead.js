@@ -162,15 +162,7 @@ const GlobalHead = props => {
     </Head>
   )
 }
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQNMGH4DK5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-XQNMGH4DK5');
-</script>
 /**
  * 获取SEO信息
  * @param {*} props
